@@ -1,0 +1,78 @@
+/* Classes Réutislisable */
+.colorPink{
+  color: #FD97FF
+}
+.bold{
+  font-weight: 600
+}
+.textLeft{
+  text-align: right
+}
+
+nav{
+  background: gray;
+  width: 100%;
+  height: 320px;
+}
+
+.containt{
+  max-width: 100%;
+  border:  1px solid red;
+  font-family: 'Montserrat', sans-serif;
+}
+.containt-section{
+  width: 100%;
+  border: 1px solid purple;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.containt-span{
+  font-weight: 300;
+  font-size: 14px;
+}
+h1{
+  font-size: 30px;
+  font-weight: 900;
+}
+.containt-text_italic{
+  font-size: 16px;
+  font-weight: 200 italic;
+  color: #828282;
+}
+.containt-text{
+  font-size: 12px;
+  font-weight: 400;
+}
+.img{
+  max-width: 100%;
+}
+
+/* SECTION 2 */
+.wrapper-text{
+  width: 225px;
+  height: 117px;
+  background-color: #E4E4E4;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-left: 8px;
+  padding-right: 8px;
+  margin-bottom: 15px;
+  margin-top: 15px;
+}
+.wrapper-text p{
+  font-size: 12px;
+}
+.containt-text-two{
+  width: 80%;
+}
+.containt-text-two p{
+  font-size: 12px;
+  font-weight: 400;
+}
+h4{
+  font-size: 14px;
+  font-weight: bold;
+}
