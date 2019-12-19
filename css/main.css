@@ -6,15 +6,12 @@ body {
 }
 /* Classes Réutislisable */
 .colorPink{
-  color: #FD97FF
+  color: #BB6BD9;
 }
 .bold{
-  font-weight: 600
+  font-weight: 600;
+  width:100%;
 }
-.textLeft{
-  text-align: right
-}
-
 /* HOME*/
 .home {
   display: flex;
@@ -36,8 +33,6 @@ h2 {
 .readMore {
   width: 100%;
 }
-
-
 nav{
   background: gray;
   width: 100%;
@@ -45,7 +40,8 @@ nav{
 }
 
 .containt{
-  max-width: 100%;
+  max-width: 80%;
+  margin: 0 10%;
   font-family: 'Montserrat', sans-serif;
 }
 .containt-section{
@@ -53,6 +49,7 @@ nav{
   display: flex;
   flex-direction: column;
   align-items: center;
+  margin-top: 30px;
 }
 .containt-span{
   font-weight: 300;
@@ -73,7 +70,7 @@ h1{
   font-weight: 400;
 }
 a{
-  text-decoration: none;
+  color: #828282;
 }
 .img{
   max-width: 100%;
@@ -84,26 +81,21 @@ a{
 /* SECTION 2 */
 .wrapper-text{
   width: 225px;
-  height: 117px;
   background-color: #E4E4E4;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  padding-left: 8px;
-  padding-right: 8px;
-  margin-bottom: 15px;
-  margin-top: 15px;
+  padding: 0 10px;
 }
 .wrapper-text p{
   font-size: 12px;
 }
-.containt-text-two{
-  width: 80%;
-}
+
 .containt-text-two p{
   font-size: 12px;
   font-weight: 400;
+  margin: 40px 0;
 }
 h4{
   font-size: 14px;
@@ -117,6 +109,11 @@ h4{
 }
 .containt-link-page a{
   color: #828282;
+}
+
+.containt-legend {
+  display: flex;
+  justify-content: center;
 }
 footer{
   width: 100%;
@@ -151,9 +148,7 @@ footer{
       flex-direction: column;
       width : 40%;
     }
-  .containt-text-two{
-    width: 60%;
-  }
+
   /* Font Size */
   .containt-span{
     font-size: 18px;
@@ -167,8 +162,26 @@ footer{
   .containt-text_italic{
     font-size: 24px;
   }
+  .containt-comment {
+    width: 80%;
+    margin-left: 20%;
+    margin-bottom: 20px;
+    text-align: justify;
+  }
+.textLeft {
+  width:100%;
+  text-align: end;
+}
+  .containt{
+    max-width: 60%;
+    margin: 0 20%;
+  }
   p{
+    width:80%;
     font-size: 14px;
+  }
+  .containt-legend {
+    justify-content: flex-end;
   }
   footer{
     display: flex;
