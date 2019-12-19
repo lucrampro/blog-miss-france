@@ -73,7 +73,7 @@ header .menu--burger{
   list-style: none;
   text-align: center;
   margin-top: 50px;
-  transition: 0.5;
+  transition: 0.5s;
 }
 .menu ul li:hover{
   color: #fd97ff;
@@ -84,4 +84,34 @@ header .menu--burger{
 }
 .close{
   /* left: 100% */
+}
+
+@media screen and (min-width: 640px){
+  header{
+    justify-content: space-between;
+    position: initial;
+  }
+  header div img{
+    margin-left: 20px;
+  }
+  .menu{
+    position: initial;
+    height: auto;
+    width: auto;
+    background-color: #ffffff;
+    flex-direction: row;
+  }
+  .menu--burger{
+    display: none;
+  }
+  .menu ul {
+    padding: 0;
+    padding-right: 20px;
+    flex-direction: row;
+  }
+  .menu ul li{
+    margin: 50px 10px 0px 10px;
+    font-family: 'Monserrat', sans-serif;
+    font-weight: 300;
+  }
 }
