@@ -34,6 +34,10 @@ header .menu--burger{
   position: absolute;
 }
 
+a {
+  text-decoration: none;
+}
+
 .top{
   top: 1px;
 }
@@ -113,5 +117,10 @@ header .menu--burger{
     margin: 50px 10px 0px 10px;
     font-family: 'Monserrat', sans-serif;
     font-weight: 300;
+  }
+  header img {
+    margin-left: 10px;
+    max-height : 50px;
+    padding-top: 20px;
   }
 }
