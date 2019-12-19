@@ -6,11 +6,31 @@
   <title>Blog Miss France</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" type="text/css" media="screen" href="/css/main.css" />
+  <link rel="stylesheet" href="./css/Menu.css">
   <link href="https://fonts.googleapis.com/css?family=Montserrat:300,300i,400,500,600,700,800&display=swap" rel="stylesheet">
-  <script src="main.js"></script>
 </head>
 <body>
-  <nav>ON TOUCHE PO</nav>
+    <header>
+        <div class="logo">
+          <img src="./assets/logo.png" alt="">
+        </div>
+        <div class="menu--burger">
+          <div class="menu--burger__wrapper">
+            <div class="trait top"></div>
+            <div class="trait mid"></div>
+            <div class="trait bottom"></div>
+          </div>
+        </div>
+        <div class="menu close">
+          <ul>
+            <a href="index.html"><li>home</li></a>
+            <li>people</li>
+            <li>mode</li>
+            <li>beauté</li>
+            <li>lifestyle</li>
+          </ul>
+        </div>
+      </header>
   <main class="containt">
     <section class="containt-section">
       <div class="containt-text-two">
@@ -21,7 +41,7 @@
           <p class="containt-text">Des 30 candidates qui avaient pourtant mis tout de leur coté grâce aux coiffures et maquillages d’Arnaud Sol Dourdin, la jeune antillaise, Miss Guadeloupe 2019,  s’est démarquée et a reçu sa couronne à Marseille, devant les millions de français qui regardaient l’émission.</p>
       </div>
     </section>
-    <img src="/assets/miss-guadeloupe.jpg" alt="Miss Guadeloupe" class="img" />
+    <img src="/assets/miss-guadeloupe.jpg" alt="Miss Guadeloupe 2020" class="img" />
     <section class="containt-section">
       <div class="wrapper-text">
         <div class="wrapper-containt">
@@ -73,5 +93,8 @@
       <img src="/assets//mail.svg" alt="mail"/>
     </div>
   </footer>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.0.2/gsap.js"></script>
+  <script src="js/main.js"></script>
+  <script src="./js/Menu.js"></script>
 </body>
 </html>
