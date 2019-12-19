@@ -9,6 +9,27 @@
   text-align: right
 }
 
+/* HOME*/
+.home {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+h2 {
+  font-size: 18px;
+}
+.news {
+  width: 60%;
+  margin-top: 40px;
+}
+.author {
+  width: 100%;
+  font-size: 12px;
+}
+.readMore {
+  width: 100%;
+}
+
 
 nav{
   background: gray;
@@ -99,6 +120,18 @@ footer{
     justify-content: space-around;
     flex-direction: row-reverse;
   }
+  .allNews{
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-end ;
+    flex-wrap: wrap;
+    margin:0 10vw;
+  }
+    .news{
+      display: flex;
+      flex-direction: column;
+      width : 40%;
+    }
   .containt-text-two{
     width: 60%;
   }
