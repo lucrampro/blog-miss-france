@@ -1,0 +1,165 @@
+/* Classes Réutislisable */
+.colorPink{
+  color: #FD97FF
+}
+.bold{
+  font-weight: 600
+}
+.textLeft{
+  text-align: right
+}
+
+/* HOME*/
+.home {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+h2 {
+  font-size: 18px;
+}
+.news {
+  width: 60%;
+  margin-top: 40px;
+}
+.author {
+  width: 100%;
+  font-size: 12px;
+}
+.readMore {
+  width: 100%;
+}
+
+
+nav{
+  background: gray;
+  width: 100%;
+  height: 120px;
+}
+
+.containt{
+  max-width: 100%;
+  font-family: 'Montserrat', sans-serif;
+}
+.containt-section{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.containt-span{
+  font-weight: 300;
+  font-size: 14px;
+}
+h1{
+  font-size: 30px;
+  font-weight: 900;
+}
+.containt-text_italic{
+  font-size: 16px;
+  font-weight: 200 italic;
+  color: #828282;
+}
+.containt-text{
+  font-size: 12px;
+  font-weight: 400;
+}
+a{
+  text-decoration: none;
+  color: #FD97FF;
+}
+.img{
+  max-width: 100%;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+/* SECTION 2 */
+.wrapper-text{
+  width: 225px;
+  height: 117px;
+  background-color: #E4E4E4;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-left: 8px;
+  padding-right: 8px;
+  margin-bottom: 15px;
+  margin-top: 15px;
+}
+.wrapper-text p{
+  font-size: 12px;
+}
+.containt-text-two{
+  width: 80%;
+}
+.containt-text-two p{
+  font-size: 12px;
+  font-weight: 400;
+}
+h4{
+  font-size: 14px;
+  font-weight: bold;
+  color: #4F4F4F;
+}
+footer{
+  width: 100%;
+  height: 30px;
+  margin-top: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.footer-reseaux{
+  width: 331px;
+  height: 79px;
+}
+
+/* RESPONSIVE DESKTOP */
+@media(min-width : 900px){
+  .containt-section{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row-reverse;
+  }
+  .allNews{
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-end ;
+    flex-wrap: wrap;
+    margin:0 10vw;
+  }
+    .news{
+      display: flex;
+      flex-direction: column;
+      width : 40%;
+    }
+  .containt-text-two{
+    width: 60%;
+  }
+  /* Font Size */
+  .containt-span{
+    font-size: 18px;
+  }
+  h1{
+    font-size: 40px;
+  }
+  h4{
+    font-size: 18px;
+  }
+  .containt-text_italic{
+    font-size: 24px;
+  }
+  p{
+    font-size: 14px;
+  }
+  footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 100%;
+    height: 100px;
+  }
+}
