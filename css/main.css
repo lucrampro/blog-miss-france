@@ -39,11 +39,6 @@ nav{
   height: 120px;
 }
 
-.containt{
-  max-width: 80%;
-  margin: 0 10%;
-  font-family: 'Montserrat', sans-serif;
-}
 .containt-section{
   width: 100%;
   display: flex;
@@ -53,7 +48,7 @@ nav{
 }
 .containt-span{
   font-weight: 300;
-  font-size: 14px;
+  font-size: 12px;
 }
 h1{
   font-size: 30px;
@@ -162,6 +157,7 @@ footer{
   .containt-text_italic{
     font-size: 24px;
   }
+
   .containt-comment {
     width: 80%;
     margin-left: 20%;
@@ -176,12 +172,31 @@ footer{
     max-width: 60%;
     margin: 0 20%;
   }
-  p{
+  .author {
+    font-size : 12px;
+  }
+  .home {
+    max-width: 100%;
+    margin: 0 10%;
+    font-family: 'Montserrat', sans-serif;
+  }
+ /* p{
     width:80%;
     font-size: 14px;
-  }
-  .containt-legend {
+  }*/
+  .containt-text_home {
+    width: 100%;
+    font-size: 14px;
     justify-content: flex-end;
+  }
+
+  .containt-text_article {
+    font-size: 14px;
+    justify-content: flex-end;
+  }
+
+  .containt-legend {
+    width:80%;
   }
   footer{
     display: flex;
