@@ -193,10 +193,18 @@ footer{
   .containt-text_article {
     font-size: 14px;
     justify-content: flex-end;
+    width: 80%;
+  }
+  .article {
+    font-family: 'Montserrat', sans-serif;
   }
 
   .containt-legend {
-    width:80%;
+    width:100%;
+    justify-content: flex-end!important;
+  }
+  .wrapper-text{
+    width: 225px;
   }
   footer{
     display: flex;
