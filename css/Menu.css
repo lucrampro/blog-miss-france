@@ -10,6 +10,7 @@ header {
     position: fixed;
     width: 100vw;
     justify-content: center;
+    background: white;
 }
 
 header .logo {

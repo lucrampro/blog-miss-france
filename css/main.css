@@ -14,7 +14,10 @@ body {
     font-weight: 600;
     width: 100%;
 }
-
+.title {
+    padding-top: 60px;
+    font-family: 'Montserrat', sans-serif;
+}
 /* HOME*/
 .home {
     display: flex;
@@ -107,6 +110,13 @@ a {
     font-size: 12px;
     font-weight: 400;
     margin: 40px 0;
+}
+
+.containt {
+
+    max-width: 80%;
+    margin: 0 10%;
+    padding-top: 60px;
 }
 
 h4 {
